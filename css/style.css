@@ -1,0 +1,25 @@
+@import url("components/navbar.css");
+@import url("./components/scrollbar.css");
+@import url("./components/home-page.css");
+@import url("./components/img-prototype-site.css");
+@import url("./components/apropos.css");
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to bottom right, #55a6d1, #1A78AC);
+    font-family: Farro;
+    height: 100%;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #55a6d1;
+    padding: 20px;
+    font-size: 120%;
+}

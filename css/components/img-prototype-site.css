@@ -1,0 +1,27 @@
+.img-prototype-site {
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.img-prototype-site h4 {
+    text-align: center;
+    margin: auto;
+}
+.img-prototype-site img {
+    border: 2px solid #1A78AC;
+    margin-top: 50px;
+    width : 50vw;
+}
+
+.img-prototype-site img:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    opacity: 70%;
+}
+
+@media (max-width: 460px) {
+    .img-prototype-site img {
+        width : 80vw;
+    }
+}

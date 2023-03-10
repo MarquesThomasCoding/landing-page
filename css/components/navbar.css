@@ -1,0 +1,48 @@
+div.navbar-1 ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    background: #1A78AC;
+    box-shadow: 2px 5px 12px #1A78AC;
+    flex-wrap: wrap;
+}
+
+.navbar-1 .name {
+    margin: auto;
+    margin-left: 5px;
+}
+
+div.navbar-1 li a {
+    display: inline-block;
+    text-align: center;
+    padding: 21px 14px;
+    text-decoration: none;
+    transition: 1s;
+    color: white;
+}
+  
+div.navbar-1 li a:hover {
+    background-color: #55a6d1;
+    transform: rotate(5deg);
+    box-shadow: 2px 5px 12px #1A78AC;
+}
+
+@media (max-width: 460px) {
+    div.navbar-1 ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style-type: none;
+        overflow: hidden;
+        background: #1A78AC;
+        box-shadow: 2px 5px 12px #1A78AC;
+    }
+    div.navbar-1 li a {
+        width: 100vw;
+    }
+    .navbar-1 img {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+}
