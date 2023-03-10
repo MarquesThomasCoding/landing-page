@@ -46,7 +46,7 @@
 } 
 
 
-@media (max-width: 460px) {
+@media (max-width: 595px) {
     div.navbar-1 ul {
         display: flex;
         flex-direction: column;
