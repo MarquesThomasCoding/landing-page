@@ -1,6 +1,7 @@
 form.dropdown {
     padding: 5px;
     color: black;
+    text-align: center;
 }
 
 .dropdown input {
