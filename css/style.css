@@ -3,6 +3,7 @@
 @import url("./components/home-page.css");
 @import url("./components/img-prototype-site.css");
 @import url("./components/apropos.css");
+@import url("./components/connexion.css");
 
 * {
     box-sizing: border-box; 
