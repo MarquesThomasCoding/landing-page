@@ -17,7 +17,32 @@
             <li class="name"><h3><i>ReTWITT</i></h3></li>
             <li><a href="index.html">ACCUEIL</a></li>
             <li><a href="apropos.html">A PROPOS</a></li>
-            <li class="moncompte"><a href="inscription.html">S'INSCRIRE</a></li>
+            <div class="dropdown">
+                <li class="dropdown"><a href="#">S'INSCRIRE</a></li>
+                    <div class="dropdown-content">
+                        <form class="dropdown">
+                            <label>Identifiant</label>
+                            <input type="email" placeholder="exemple@test.com">
+                            <label>Mot de passe</label>
+                            <input type="password">
+                            <label>Confirmation du mot de passe</label>
+                            <input type="password">
+                            <input class="submit-input" type="submit" value="Inscription">
+                        </form>
+                    </div>
+                </div>
+            <div class="dropdown">
+            <li class="dropdown"><a href="#">SE CONNECTER</a></li>
+                <div class="dropdown-content dropdown-connexion">
+                    <form class="dropdown">
+                        <label>Identifiant</label>
+                        <input type="email" placeholder="exemple@test.com">
+                        <label>Mot de passe</label>
+                        <input type="password">
+                        <input class="submit-input" type="submit" value="Connexion">
+                    </form>
+                </div>
+            </div>
         </ul>
     </div>
     <div class="home-page">
