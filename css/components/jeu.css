@@ -1,0 +1,51 @@
+.menu {
+    margin: auto;
+    margin-top: 20vh;
+    text-align: center;
+}
+button.playbutton {
+    background-color: white;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+button.playbutton:hover {
+    background-color: #206c95;
+    box-shadow: 2px 5px 12px black;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.hide {
+    display: none;
+}
+#score {
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 20%;
+}
+#game-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px
+}
+#game-zone div {
+    position: relative;
+    display: flex;
+}
+.fruit {
+    font-size: 300%;
+    position: relative;
+    color: red
+}
+#bird-user {
+    position: relative;
+    width: 20%
+}
