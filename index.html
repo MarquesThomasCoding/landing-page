@@ -13,25 +13,25 @@
     <div class="navbar-1">
         <ul>
             <img src="imgs/toucan.png" height="65px">
-            <li class="name"><h3><i>ReTWITT</i></h3></li>
+            <li class="name"><h3>ReTWITT</h3></li>
             <li><a href="index.html">ACCUEIL</a></li>
             <li><a href="apropos.html">A PROPOS</a></li>
             <div class="dropdown">
                 <li class="dropdown"><a href="#">S'INSCRIRE</a></li>
-                    <div class="dropdown-content">
-                        <form class="dropdown">
-                            <label>Identifiant</label>
-                            <input type="email" placeholder="exemple@test.com">
-                            <label>Mot de passe</label>
-                            <input type="password">
-                            <label>Confirmation du mot de passe</label>
-                            <input type="password">
-                            <input class="submit-input" type="submit" value="Inscription">
-                        </form>
-                    </div>
+                <div class="dropdown-content">
+                    <form class="dropdown">
+                        <label>Identifiant</label>
+                        <input type="email" placeholder="exemple@test.com">
+                        <label>Mot de passe</label>
+                        <input type="password">
+                        <label>Confirmation du mot de passe</label>
+                        <input type="password">
+                        <input class="submit-input" type="submit" value="Inscription">
+                    </form>
                 </div>
+            </div>
             <div class="dropdown">
-            <li class="dropdown"><a href="#">SE CONNECTER</a></li>
+                <li class="dropdown"><a href="#">SE CONNECTER</a></li>
                 <div class="dropdown-content dropdown-connexion">
                     <form class="dropdown">
                         <label>Identifiant</label>
@@ -46,6 +46,7 @@
     </div>
     <div class="home-page">
         <img id="icon" src="imgs/toucan.png">
+        <p id="clock"></p>
         <h1 class="retwitt-name">ReTWITT</h1>
         <h5 class="retwitt-description">Le site de partage qu'il vous faut aujourd'hui, pour demain</h5>
         <p class="para-descri">Partagez vos photos, vidéos, pensées au monde entier et faites part aux autres de vos actualités. ReTWITT est <strong>le</strong> réseau fait pour vous.
@@ -60,8 +61,29 @@
     </div>
     <div class="img-prototype-site">
         <h4>Prototypes du site :</h4>
-        <a href="imgs/proto_site_2.PNG"><img src="imgs/proto_site_2.PNG"></a>
+        <a href="./imgs/proto_site_2.PNG"><img id="proto-image" src="imgs/proto_site_2.PNG"></a>
     </div>
+
+
+    <!-- Partie jeu. Non responsive -->
+    
+    <div class="menu">
+        <h1>ReTWITT Game</h1>
+        <button onclick="playgame()" class="playbutton">JOUER</button>
+    </div>
+    <div class="jeu hide">
+        <h3 id="score">Score : 0</h3>
+        <div id="game-zone">
+            <div>
+                <i class="fruit fa-solid fa-apple-whole"></i>
+                <i class="fruit fa-solid fa-apple-whole"></i>
+                <i class="fruit fa-solid fa-apple-whole"></i>
+                <i class="fruit fa-solid fa-apple-whole"></i>
+            </div>
+            <img id="bird-user" src="imgs/toucan.png">
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 <footer>© ReTWITT - 2023</footer>
 </html>
